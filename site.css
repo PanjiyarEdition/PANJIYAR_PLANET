@@ -1,0 +1,36 @@
+.td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.th {
+    background-color: red;
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.d:hover {
+    background-color: cornflowerblue;
+}
+
+.h1 {
+    border-style: groove;
+    border-width: 5px;
+
+    text-align: center;
+}
+
+.i {
+    border-style: outset;
+    border-width: 5px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.y {
+    padding-left: 40px;
+    margin: 20px;
+}

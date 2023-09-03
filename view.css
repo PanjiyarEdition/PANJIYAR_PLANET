@@ -1,0 +1,38 @@
+.b{
+padding-left: 12%;
+padding-right: 12%;
+}
+
+.frame {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-family:  Algerian;
+ 
+}
+
+.gallery {
+    margin: 10px;
+    border: 1px inherit;
+    float: left;
+    width: 200px;
+    overflow: hidden;
+}
+
+.gallery:hover {
+    border: 8px solid black;
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px;
+}
+
+.desc {
+    padding: 10px;
+    text-align: center;
+    font-family:  Algerian;
+}
+.br{
+    border-style: groove;
+}

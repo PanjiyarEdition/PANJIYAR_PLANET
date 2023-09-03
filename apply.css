@@ -1,0 +1,12 @@
+.apply {
+            background-color: tan;
+            width: 100%;
+            padding-left: 20%;
+            padding-right: 10%;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+.apply h1{
+    padding-left: 15%;
+}
+       

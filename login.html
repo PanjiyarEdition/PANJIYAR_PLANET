@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.panjiyarplanet/login.com</title>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+    <div class="a">
+        <div class="bb">
+            <div class="c">
+                <div id="btn"></div>
+                <button type="button" class="d" onclick="login()"> LOG IN </button>
+                <button type="button" class="d" onclick="Registar()"> SIGN IN </button>
+            </div>
+            <h3 ALIGN="center"> WELCOME TO PANJIYAR PLANET </h3>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Enter User ID" required>
+                <input type="email" class="input-field" placeholder="Enter Mail ID" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="checkbox" required><span> REMEMBER PASSWORD </span>
+                <button type="submit" class="submit-btn"> LOG IN </button>
+            </form>
+            <form id="Registar" class="input-group">
+                <input type="text" class="input-field" placeholder="Create User ID" required>
+                <input type="email" class="input-field" placeholder="Enter Your Mail" required>
+                <input type="number" class="input-field" placeholder="Mobile No." required>
+                <input type="text" class="input-field" placeholder="Create Password(eg. ram@123)" required>
+                <input type="checkbox" class="checkbox" required> <span> I AGREE TO TERMS & CONDITIONS </span>
+                <button type="submit" class="submit-btn"> SIGN IN </button>
+            </form>
+        </div>
+
+    </div>
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("Registar");
+        var z = document.getElementById("btn");
+
+        function Registar() {
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+        function login() {
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0";
+        }
+    </script>
+
+
+</body>
+
+</html>
